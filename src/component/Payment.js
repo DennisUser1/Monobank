@@ -14,7 +14,13 @@ export default function Payment({ payment }) {
   // тут ми виводимо верстку блока всіх платежів
   // та за допомогою функції .map() яка приймає тег
   // ми для кожного платежу виводимо верстку
-  return <PaymentList>{payment.map(PaymentItem)}</PaymentList>;
+  return (
+    <PaymentList>
+      {payment.map((item, index) => (
+        <PaymentItem key={index} {...item} />
+      ))}
+    </PaymentList>
+  );
 }
 
 // ось сама верстка одного платежу

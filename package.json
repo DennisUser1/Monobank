@@ -4,7 +4,7 @@
   "description": "",
   "keywords": [],
   "main": "src/index.js",
-  "homepage": ".",
+  "homepage": "https://dennisuser1.github.io/Monobank",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
