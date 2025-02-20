@@ -2,11 +2,14 @@
 import React from "react";
 
 // ІМПОРТУЄМО ПОТРІБНІ КОМПОНЕНТИ
-import Page from "./component/Page";
-import Header from "./component/Header";
-import Balance from "./component/Balance";
-import Menu from "./component/Menu";
-import Payment from "./component/Payment";
+import Page from "./components/Page";
+import Header from "./components/Header";
+import Balance from "./components/Balance";
+import Menu from "./components/Menu";
+import Payment from "./components/Payment";
+import GetIcon from "./img/icons/get.svg";
+import SendIcon from "./img/icons/send.svg";
+import AnotherIcon from "./img/icons/another.svg";
 
 // КОНФІГУРАЦІЯ ==========================================
 export default function App() {
@@ -89,16 +92,16 @@ export default function App() {
           {
             name: "Поповнити свій баланс",
             onClick: getMoney,
-            img: "../icon/get.svg",
+            img: GetIcon,
           },
           {
             name: "Переказати на картку",
             onClick: removeMoney,
-            img: "../icon/send.svg",
+            img: SendIcon,
           },
           {
             name: "Інші платежі",
-            img: "../icon/another.svg",
+            img: AnotherIcon,
           },
         ]}
       />

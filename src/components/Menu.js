@@ -51,7 +51,7 @@ const ButtonSendBlock = styled.button`
 
 const MenuBlock = styled.div`
   display: flex;
-  padding: 0 60px;
+  padding: 0 20px;
   gap: 10px;
   justify-content: space-evenly;
   width: 100%;

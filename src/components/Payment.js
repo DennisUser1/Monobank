@@ -1,4 +1,5 @@
 import styled, { css } from "styled-components";
+import IconSvg from '../img/icons/payment.svg';
 
 export default function Payment({ payment }) {
   // якщо в нас список платежів має
@@ -28,7 +29,7 @@ function PaymentItem({ name, amount, type }) {
   return (
     <PaymentBlock>
       <PaymentIcon>
-        <img src="/icon/payment.svg" width="30px" height="30px" alt="Icon" />
+        <img src={IconSvg} width="30px" height="30px" alt="Icon" />
       </PaymentIcon>
       <PaymentText>{name}</PaymentText>
       {/* ось тут ми передаємо параметр type в наш тег */}

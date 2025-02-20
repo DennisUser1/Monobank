@@ -18,7 +18,7 @@ const BlockTag = styled.div`
   /* робимо відступи по боках та зверху, 
   щоб задати потрібний розмір нашого блоку
   */
-  padding: 100px 30px;
+  padding: 100px 20px;
 
   /* вмикаємо режим верстки flex, 
   робимо текст по центру вертикально та горизонтально 
@@ -31,7 +31,7 @@ const BlockTag = styled.div`
 
 const Money = styled.div`
   /* задаємо розмір тексту */
-  font-size: 62px;
+  font-size: 56px;
 
   /* задаємо колір тексту */
   color: #fff;
