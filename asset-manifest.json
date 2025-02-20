@@ -1,14 +1,18 @@
 {
   "files": {
     "main.css": "/Monobank/static/css/main.04a2a6c5.css",
-    "main.js": "/Monobank/static/js/main.d837a4df.js",
+    "main.js": "/Monobank/static/js/main.ed170b81.js",
     "static/media/monobank_cat.png": "/Monobank/static/media/monobank_cat.c6fd240499091184b8d7.png",
+    "static/media/payment.svg": "/Monobank/static/media/payment.3ef96f23c6439cff84611bf20e92f44e.svg",
+    "static/media/send.svg": "/Monobank/static/media/send.7f1873fd0eaed077f7037c3195d3cadc.svg",
+    "static/media/another.svg": "/Monobank/static/media/another.bd5a899698024690b7fccfc2d79b5618.svg",
     "index.html": "/Monobank/index.html",
+    "static/media/get.svg": "/Monobank/static/media/get.657d29283d923a73ffcceba4714729d7.svg",
     "main.04a2a6c5.css.map": "/Monobank/static/css/main.04a2a6c5.css.map",
-    "main.d837a4df.js.map": "/Monobank/static/js/main.d837a4df.js.map"
+    "main.ed170b81.js.map": "/Monobank/static/js/main.ed170b81.js.map"
   },
   "entrypoints": [
     "static/css/main.04a2a6c5.css",
-    "static/js/main.d837a4df.js"
+    "static/js/main.ed170b81.js"
   ]
 }
