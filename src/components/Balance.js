@@ -6,7 +6,7 @@ export default function Balance({ balance }) {
   return (
     <BlockTag>
       <img src={myImage} width="300px" height="300px" alt="My Image"/>
-      <Money>{balance} ₴ UA</Money>
+      <Money>{balance} ₴ <Sup>UA</Sup></Money>
     </BlockTag>
   );
 }
@@ -31,8 +31,14 @@ const BlockTag = styled.div`
 
 const Money = styled.div`
   /* задаємо розмір тексту */
-  font-size: 56px;
+  font-size: 52px;
 
   /* задаємо колір тексту */
   color: #fff;
+`;
+
+const Sup = styled.sup`
+  font-size: 60%; 
+  vertical-align: super;
+  opacity: 0.8; 
 `;
